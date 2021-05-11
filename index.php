@@ -615,8 +615,7 @@ textarea {
 
 
 	<?php 
-		// print results
-		print_r($result);
+	// print results
 	$FINAL_RESULT = abs(round(array_sum($result) / $NumOfGenerations));
 	echo "<br>";
 	echo "<br>";	
